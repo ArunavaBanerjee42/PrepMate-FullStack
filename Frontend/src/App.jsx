@@ -138,10 +138,10 @@ const router = createBrowserRouter([
         path: '/about-us',
         element: <AboutUs />,
       },
-      {
-        path: '/cookies',
-        element: <CookiePolicy />,
-      },
+      // {
+      //   path: '/cookies',
+      //   element: <CookiePolicy />,
+      // },
       {
         path: '/terms',
         element: <TermsOfService />,
@@ -150,10 +150,10 @@ const router = createBrowserRouter([
         path: '/contact-us',
         element: <ContactUs />,
       },
-      {
-        path: '/privacy-policy',
-        element: <PrivacyPolicy />,
-      },
+      // {
+      //   path: '/privacy-policy',
+      //   element: <PrivacyPolicy />,
+      // },
     ],
   },
 ]);
